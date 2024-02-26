@@ -1,35 +1,41 @@
-# vue-project
+# Vue Project
 
-This template should help get you started developing with Vue 3 in Vite.
+- This is a simple Vue project for managing tasks with dark mode functionality. It includes a Task List, Add Task Form, and Edit Task Form components.
 
-## Recommended IDE Setup
+# Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Getting Started
+- Project Structure
+- How to Use
+- Additional Information
 
-## Customize configuration
+# Getting Started
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- git clone "https://github.com/okpatil3714/task-tracker-vue.git"
+- Install Dependencies
+  - npm install
+- Run the development server:
+  - Copy code
+  - npm run dev
 
-## Project Setup
+# Project Structure
 
-```sh
-npm install
-```
+- src/App.vue: Main application component.
+- src/components/TaskList.vue: Component for displaying a list of tasks.
+- src/components/AddTaskForm.vue: Component for adding new tasks.
+- src/components/EditTaskForm.vue: Component for editing existing tasks.
+- src/main.js: Entry point for the application.
+- src/main.css: Styles for the application.
 
-### Compile and Hot-Reload for Development
+# How to Use
 
-```sh
-npm run dev
-```
+- Tasks are displayed in the TaskList component.
+- Click the "Add Task" button to open the AddTaskForm and add new tasks.
+- Click the "Edit" button next to a task to open the EditTaskForm and modify the task.
+- Toggle between light mode and dark mode using the "Dark Mode" button.
 
-### Compile and Minify for Production
+# Additional Information
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- The project uses Vue 3 and Tailwind CSS.
+- Dark mode is implemented using conditional class binding in the main App.vue component.
+- Task data is managed using Vue ref to make it reactive.
