@@ -17,6 +17,9 @@
 - Run the development server:
   - Copy code
   - npm run dev
+- If get this error "'vite' is not recognized as an internal or external command please do run below command"
+  - npm install vite --save-dev
+  - and then do "npm run dev"
 
 # Project Structure
 
